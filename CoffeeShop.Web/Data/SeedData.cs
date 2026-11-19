@@ -190,7 +190,7 @@ public static class SeedData
                 UserId = user.Id,
                 EmployeeCode = code,
                 FullName = fullName,
-                Position = position,    
+                Position = position,        
                 HireDate = DateTime.Today
             });
             await db.SaveChangesAsync();
